@@ -1,5 +1,4 @@
 // Only change code below this line
-var sum = 0;
 function myRecursion(arr, n) {
  if(n<=0){
      return 0;
@@ -9,5 +8,5 @@ function myRecursion(arr, n) {
 }
 // Only change code above this line
 
-console.log(myRecursion([1], 0)); // Change this line
+console.log(myRecursion([1, 2, 3, 4], 3)); // Change this line
 module.exports = myRecursion;
