@@ -9,5 +9,5 @@ function myCounter(n) {
 }
 // Only change code above this line
 
-console.log(myCounter(5)); // Change this line
+console.log(myCounter(7).reverse()); // Change this line
 module.exports = myCounter;
