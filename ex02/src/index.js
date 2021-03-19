@@ -3,11 +3,11 @@ function myCounter(n) {
   if (n === 1) return [n];
   else {
     var numbers = myCounter(n - 1);
-    numbers.push(n);
+    numbers.unshift(n);
     return numbers;
   }
 }
 // Only change code above this line
 
-console.log(myCounter(7).reverse()); // Change this line
+console.log(myCounter(7)); // Change this line
 module.exports = myCounter;
